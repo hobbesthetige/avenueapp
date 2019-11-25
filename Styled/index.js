@@ -1,8 +1,3 @@
-export { 
-  Title, 
-  AppWrapper 
-} from './styles'
+export { Title, AppWrapper, PageContainer, ContentWrap } from "./styles";
 
-export {
-  GlobalStyle
-} from './global'
+export { GlobalStyle } from "./global";

@@ -1,27 +1,30 @@
-import React, { Component } from 'react';
-import { render } from 'react-dom';
-import { AppWrapper, GlobalStyle } from './Styled';
-import { AppHeader } from './Components/'
-import { Hello } from './Hello';
-import HelloWorld from './HelloWorld';
-// import './style.css';
+import React from "react";
+import { render } from "react-dom";
+import { AppWrapper, GlobalStyle, PageContainer, ContentWrap } from "./Styled";
+import { AppHeader, AppBody, AppFooter } from "./Components/";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: 'React'
+      name: "React"
     };
   }
 
   render() {
     return (
       <AppWrapper>
-        <GlobalStyle/>
-        <AppHeader/>
+        <GlobalStyle />
+        <PageContainer>
+          <ContentWrap>
+            <AppHeader />
+            <AppBody />
+            <AppFooter />
+          </ContentWrap>
+        </PageContainer>
       </AppWrapper>
     );
   }
 }
 
-render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById("root"));

@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   @import url(‘https://fonts.googleapis.com/css?family=Montserrat:400,900|Roboto');
@@ -8,6 +8,6 @@ export const GlobalStyle = createGlobalStyle`
     font-family: Roboto, sans-serif;
   }
   h1 {
-    font-family: Montserrat;
+    font-family: Roboto, Montserrat;
   }
-`
+`;
