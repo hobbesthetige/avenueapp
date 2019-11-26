@@ -35,7 +35,7 @@ export class AppFooter extends React.Component {
           </HBlock1>
           <HBlock2>
             <p>
-              Avenue is created and maintained by two veteran brothers. Check
+              Avenue is created and maintained by three veteran brothers. Check
               out our company website at{" "}
               <a href="https://bluehouselogistics.com">
                 www.bluehouselogistics.com
