@@ -114,7 +114,7 @@ export class AppBody extends React.Component {
                 <Copy>
                   <span role="img" aria-label="Check mark" />
                   {"✓ "}
-                  Travel Time
+                  Travel time
                 </Copy>
                 <Copy>
                   <span role="img" aria-label="Check mark" />
