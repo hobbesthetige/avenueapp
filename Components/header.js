@@ -64,7 +64,7 @@ export class AppHeader extends React.Component {
         <HeaderBackground>
           <HeaderLogo src="https://firebasestorage.googleapis.com/v0/b/avenue-6986d.appspot.com/o/Badge.svg?alt=media&token=fe6f98d4-3b64-45f3-b1ec-b4be4b420c4b" />
         </HeaderBackground>
-        <HeaderTitle>The Avenue App</HeaderTitle>
+        <HeaderTitle>Avenue: Route Planner</HeaderTitle>
         <HeaderSubtitle>Adding Value to Your Route</HeaderSubtitle>
         <IOSBadgeButton />
         <ImageCarousel />

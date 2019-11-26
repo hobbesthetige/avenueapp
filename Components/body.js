@@ -98,7 +98,7 @@ export class AppBody extends React.Component {
                 <Copy>
                   <span role="img" aria-label="Check mark" />
                   {"✓ "}
-                  Easiy start driving directions to any waypoint.
+                  Easily start driving directions to any waypoint.
                 </Copy>
               </CardContent>
               <CardImage
