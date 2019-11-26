@@ -30,7 +30,6 @@ const HeaderLogo = styled.img`
 
 const HeaderTitle = styled.h1`
   font-size: 2.3rem;
-  font-weight: 900;
   -webkit-text-shadow: 0 0 15px rgba(255, 255, 255, 1);
   -webkit-background-clip: text;
   background-clip: text;

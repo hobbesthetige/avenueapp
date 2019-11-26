@@ -7,7 +7,4 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     font-family: Roboto, sans-serif;
   }
-  h1 {
-    font-family: Roboto, Montserrat;
-  }
 `;
