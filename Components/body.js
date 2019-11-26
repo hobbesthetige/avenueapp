@@ -139,6 +139,15 @@ export class AppBody extends React.Component {
             </Card>
           </Column>
         </CardContainer>
+        <Title>Contact Us</Title>
+        <Copy>
+          Please feel free to contact us at{" "}
+          <a href="mailto:bluehouselogistics@gmail.com">
+            bluehouselogistics@gmail.com
+          </a>{" "}
+          for app assistance, feedback or interest. We answer within 24 hours
+          and can provide a phone number for you to reach us.
+        </Copy>
         {/* <Title>About Us</Title> */}
       </Container>
     );

@@ -40,6 +40,7 @@ export class AppFooter extends React.Component {
               <a href="https://bluehouselogistics.com">
                 www.bluehouselogistics.com
               </a>
+              .
             </p>
             <p>
               By using Avenue, you agree to its{" "}
